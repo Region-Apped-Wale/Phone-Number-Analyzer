@@ -1,6 +1,6 @@
 # Phone Number Analyzer V1.0.1
 
-![Phone Number Analyzer Banner](https://via.placeholder.com/800x200.png?text=Phone+Number+Analyzer+V1.0.1) <!-- Placeholder image, change with actual image URL -->
+![Phone Number Analyzer Banner](https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Phone_icon_%28black%29.svg/1024px-Phone_icon_%28black%29.svg.png) <!-- Example Random Image -->
 
 ## Overview
 This Python project allows users to analyze phone numbers by validating them and retrieving detailed information such as geographic location, carrier, time zone, and number type. It uses the `phonenumbers` library to parse and validate phone numbers from various countries. The script provides a command-line interface (CLI) to make it easy to interact with the tool.
@@ -26,7 +26,7 @@ This Python project allows users to analyze phone numbers by validating them and
 
 ## Installation & Requirements
 ### Prerequisites
-- Python 3.x
+- **Python 3.0 or higher** is required.
 - Install the required dependencies using `pip`:
 
 ```bash
