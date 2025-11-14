@@ -13,20 +13,31 @@ This Python project allows users to analyze phone numbers by validating them and
 - **Standard Formats**: Display the phone number in different formats: National, International, and E.164.
 
 ## How It Works
-1. Select a country by its associated number.
-2. Enter a phone number for validation and analysis.
-3. The script will validate the number and show:
-   - **Location** (country or city),
-   - **Carrier** (service provider),
-   - **Time Zone(s)**, 
-   - **Phone Number Type** (e.g., mobile, toll-free),
-   - **Formatted Numbers** (National, International, and E.164).
+1. **Run the Program**: 
+   - Simply double-click the `start.bat` file (Windows) or execute the Python script directly (`python phone_analyzer.py` for other operating systems). 
+   - The program will start by showing a menu of countries.
+  
+2. **Select a Country**: 
+   - Choose a country by number (e.g., `1` for United States, `2` for Canada, etc.). This sets the default country code for your phone number analysis.
+  
+3. **Enter a Phone Number**: 
+   - Enter the phone number you want to analyze, using the correct format (e.g., `+1XXXXXXXXXX` for the US).
+   
+4. **Analyze the Number**: 
+   - The program will check if the phone number is valid. 
+   - If valid, it will provide detailed information including:
+     - **Location/City**: Geographical location of the phone number.
+     - **Carrier**: Service provider for the phone number.
+     - **Time Zone(s)**: Time zone(s) associated with the number.
+     - **Phone Number Type**: Whether it's a mobile, fixed-line, toll-free, etc.
+     - **Number Formatting**: Shows the phone number in national, international, and E.164 formats.
 
-4. Optionally, analyze more numbers or exit the program.
+5. **Reanalyze or Exit**: 
+   - After displaying the analysis results, you can choose to analyze another number or exit the program.
 
 ## Installation & Requirements
 ### Prerequisites
-- **Python 3.0 or higher** is required.
+- **Python 3.0 or higher** is required. Make sure to install Python from [here](https://www.python.org/downloads/).
 - Install the required dependencies using `pip`:
 
 ```bash
